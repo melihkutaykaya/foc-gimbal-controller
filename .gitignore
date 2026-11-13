@@ -1,0 +1,43 @@
+# ---------- Keil µVision build output ----------
+firmware/Objects/
+firmware/Listings/
+*.o
+*.d
+*.axf
+*.hex
+*.map
+*.lnp
+*.dep
+*.htm
+*.iex
+*.crf
+*.lst
+*.bak
+
+# Keil per-user IDE state
+*.uvguix.*
+*.uvgui.*
+EventRecorderStub.scvd
+JLinkLog.txt
+
+# RTE pack-update backups
+*.base@*
+*.update@*
+
+# ---------- KiCad ----------
+*.kicad_prl
+*-backups/
+.history/
+fp-info-cache
+*.lck
+*.kicad_sch-bak
+*.kicad_pcb-bak
+_autosave-*
+\#auto_saved_files\#
+
+# ---------- OS / editor ----------
+Thumbs.db
+desktop.ini
+.DS_Store
+~$*
+.vscode/

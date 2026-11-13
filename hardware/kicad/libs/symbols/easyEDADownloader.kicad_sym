@@ -1,0 +1,198 @@
+(kicad_symbol_lib
+  (version 20211014)
+  (generator "easy EDA downloader")
+  (symbol "VT1V101M-CRE77"
+    (in_bom yes)
+    (on_board yes)
+    (property
+    "Reference"
+    "C"
+    (id 0)
+    (at 0 10.16 0)
+    (effects (font (size 1.27 1.27) ) )
+  )
+    (property
+    "Value"
+    "VT1V101M-CRE77"
+    (id 1)
+    (at 0 -10.16 0)
+    (effects (font (size 1.27 1.27) ) )
+  )
+    (property
+    "Footprint"
+    "CAP-SMD_BD6.3-L6.6-W6.6-FD"
+    (id 2)
+    (at 0 -12.70 0)
+    (effects (font (size 1.27 1.27) ) hide)
+  )
+    (property
+    "Datasheet"
+    "https://lcsc.com/product-detail/Aluminum-Electrolytic-Capacitors-SMD_Vertical-Technology-VT1V101M-CRE77_C294520.html"
+    (id 3)
+    (at 0 -15.24 0)
+    (effects (font (size 1.27 1.27) ) hide)
+  )
+    (property
+    "LCSC Part"
+    "C294520"
+    (id 5)
+    (at 0 -17.78 0)
+    (effects (font (size 1.27 1.27) ) hide)
+  )
+    (symbol "VT1V101M-CRE77_0_1"
+          (rectangle
+            (start -2.54 1.52)
+            (end -1.52 1.50)
+            (stroke (width 0) (type default) (color 0 0 0 0))
+            (fill (type background))
+          )
+          (rectangle
+            (start -2.03 2.03)
+            (end -2.01 1.02)
+            (stroke (width 0) (type default) (color 0 0 0 0))
+            (fill (type background))
+          )
+          (arc
+            (start 0.00 -0.25)
+            (mid -1.32 -0.53)
+            (end 2.54 -1.02)
+            (stroke (width 0) (type default) (color 0 0 0 0))
+            (fill (type background))
+          )
+          (arc
+            (start -2.54 -1.02)
+            (mid -3.49 -1.96)
+            (end 0.00 -0.25)
+            (stroke (width 0) (type default) (color 0 0 0 0))
+            (fill (type background))
+          )
+          (polyline
+            (pts
+              (xy -2.54 0.76)
+              (xy 2.54 0.76)
+            )
+            (stroke (width 0) (type default) (color 0 0 0 0))
+            (fill (type none))
+          )
+          (pin unspecified line
+            (at 0.00 5.08 90)
+            (length 4.32)
+            (name "1" (effects (font (size 1.27 1.27))))
+            (number "1" (effects (font (size 1.27 1.27))))
+          )
+          (pin unspecified line
+            (at 0.00 -5.08 270)
+            (length 4.83)
+            (name "2" (effects (font (size 1.27 1.27))))
+            (number "2" (effects (font (size 1.27 1.27))))
+          )
+    )
+  )
+  (symbol "INA240A2PWR"
+      (in_bom yes)
+      (on_board yes)
+      (property
+      "Reference"
+      "U"
+      (id 0)
+      (at 0 8.89 0)
+      (effects (font (size 1.27 1.27) ) )
+    )
+      (property
+      "Value"
+      "INA240A2PWR"
+      (id 1)
+      (at 0 -8.89 0)
+      (effects (font (size 1.27 1.27) ) )
+    )
+      (property
+      "Footprint"
+      "TSSOP-8_L4.4-W3.0-P0.65-LS6.4-BL"
+      (id 2)
+      (at 0 -11.43 0)
+      (effects (font (size 1.27 1.27) ) hide)
+    )
+      (property
+      "Datasheet"
+      "https://lcsc.com/product-detail/PMIC-Current-Power-Monitors-Regulators_TI_INA240A2PWR_INA240A2PWR_C129949.html"
+      (id 3)
+      (at 0 -13.97 0)
+      (effects (font (size 1.27 1.27) ) hide)
+    )
+      (property
+      "LCSC Part"
+      "C129949"
+      (id 5)
+      (at 0 -16.51 0)
+      (effects (font (size 1.27 1.27) ) hide)
+    )
+      (symbol "INA240A2PWR_0_1"
+            (rectangle
+              (start -10.16 6.86)
+              (end 10.16 -6.86)
+              (stroke (width 0) (type default) (color 0 0 0 0))
+              (fill (type background))
+            )
+            (circle
+              (center -8.89 5.59)
+              (radius 0.38)
+              (stroke (width 0) (type default) (color 0 0 0 0))
+              (fill (type none))
+            )
+            (circle
+              (center -8.89 5.59)
+              (radius 0.38)
+              (stroke (width 0) (type default) (color 0 0 0 0))
+              (fill (type none))
+            )
+            (pin unspecified line
+              (at -12.70 3.81 0)
+              (length 2.54)
+              (name "NC" (effects (font (size 1.27 1.27))))
+              (number "1" (effects (font (size 1.27 1.27))))
+            )
+            (pin unspecified line
+              (at -12.70 1.27 0)
+              (length 2.54)
+              (name "IN+" (effects (font (size 1.27 1.27))))
+              (number "2" (effects (font (size 1.27 1.27))))
+            )
+            (pin unspecified line
+              (at -12.70 -1.27 0)
+              (length 2.54)
+              (name "IN-" (effects (font (size 1.27 1.27))))
+              (number "3" (effects (font (size 1.27 1.27))))
+            )
+            (pin unspecified line
+              (at -12.70 -3.81 0)
+              (length 2.54)
+              (name "GND" (effects (font (size 1.27 1.27))))
+              (number "4" (effects (font (size 1.27 1.27))))
+            )
+            (pin unspecified line
+              (at 12.70 -3.81 180)
+              (length 2.54)
+              (name "VS" (effects (font (size 1.27 1.27))))
+              (number "5" (effects (font (size 1.27 1.27))))
+            )
+            (pin unspecified line
+              (at 12.70 -1.27 180)
+              (length 2.54)
+              (name "REF2" (effects (font (size 1.27 1.27))))
+              (number "6" (effects (font (size 1.27 1.27))))
+            )
+            (pin unspecified line
+              (at 12.70 1.27 180)
+              (length 2.54)
+              (name "REF1" (effects (font (size 1.27 1.27))))
+              (number "7" (effects (font (size 1.27 1.27))))
+            )
+            (pin unspecified line
+              (at 12.70 3.81 180)
+              (length 2.54)
+              (name "OUT" (effects (font (size 1.27 1.27))))
+              (number "8" (effects (font (size 1.27 1.27))))
+            )
+      )
+    )
+)
